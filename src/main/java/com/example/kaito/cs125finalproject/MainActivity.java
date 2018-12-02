@@ -55,7 +55,7 @@ public class MainActivity extends AppCompatActivity {
                         Log.d("tag10", "onResponse starts");
                         try {
                             Log.d("tag4", "onResponse went through");
-                            String summonerName = summonerData.getString("Name");
+                            String summonerName = summonerData.getString("name");
                             summonerNameView.setText(summonerName);
 
                         } catch (Exception e) {

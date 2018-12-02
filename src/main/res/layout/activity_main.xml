@@ -11,46 +11,34 @@
         android:id="@+id/button"
         android:layout_width="80dp"
         android:layout_height="40dp"
-        android:layout_marginTop="65dp"
-        android:onClick="startAPICall(v)"
+        android:onClick="startAPICall"
         android:text="@string/search"
-        app:layout_constraintStart_toEndOf="@+id/searchView"
-        app:layout_constraintTop_toTopOf="parent" />
+        tools:layout_editor_absoluteX="293dp"
+        tools:layout_editor_absoluteY="65dp" />
 
     <SearchView
         android:id="@+id/searchView"
-        android:layout_width="277dp"
-        android:layout_height="44dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="65dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_width="238dp"
+        android:layout_height="39dp"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="65dp" />
 
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="120dp"
         android:layout_height="120dp"
-        android:layout_marginStart="32dp"
-        android:layout_marginLeft="32dp"
-        android:layout_marginTop="20dp"
         android:contentDescription="@string/summonericon"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
         app:srcCompat="@android:color/background_light"
+        tools:layout_editor_absoluteX="88dp"
+        tools:layout_editor_absoluteY="264dp"
         tools:srcCompat="@tools:sample/backgrounds/scenic" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="232dp"
         android:layout_height="75dp"
-        android:layout_marginStart="74dp"
-        android:layout_marginLeft="74dp"
-        android:layout_marginTop="80dp"
-        android:layout_marginBottom="20dp"
         android:text="@string/textview"
-        app:layout_constraintBottom_toTopOf="@+id/imageView"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/searchView" />
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="128dp" />
 
 </android.support.constraint.ConstraintLayout>
