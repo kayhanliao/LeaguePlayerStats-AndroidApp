@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">CS 125 Final Project</string>
+    <string name="button">Button</string>
+    <string name="textview">TextView</string>
+    <string name="search">Search</string>
+    <string name="summonericon">summonerIcon</string>
+</resources>
