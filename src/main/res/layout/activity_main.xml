@@ -11,34 +11,46 @@
         android:id="@+id/button"
         android:layout_width="80dp"
         android:layout_height="40dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="65dp"
         android:onClick="startAPICall"
         android:text="@string/search"
-        tools:layout_editor_absoluteX="293dp"
-        tools:layout_editor_absoluteY="65dp" />
+        app:layout_constraintStart_toEndOf="@+id/searchView"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <SearchView
         android:id="@+id/searchView"
         android:layout_width="238dp"
         android:layout_height="39dp"
-        tools:layout_editor_absoluteX="40dp"
-        tools:layout_editor_absoluteY="65dp" />
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="65dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="120dp"
         android:layout_height="120dp"
+        android:layout_marginStart="88dp"
+        android:layout_marginLeft="88dp"
+        android:layout_marginTop="61dp"
         android:contentDescription="@string/summonericon"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
         app:srcCompat="@android:color/background_light"
-        tools:layout_editor_absoluteX="88dp"
-        tools:layout_editor_absoluteY="264dp"
         tools:srcCompat="@tools:sample/backgrounds/scenic" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="232dp"
         android:layout_height="75dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="24dp"
         android:text="@string/textview"
-        tools:layout_editor_absoluteX="40dp"
-        tools:layout_editor_absoluteY="128dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/searchView" />
 
 </android.support.constraint.ConstraintLayout>
