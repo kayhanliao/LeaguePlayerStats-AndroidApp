@@ -4,4 +4,23 @@
     <string name="textview">TextView</string>
     <string name="search">Search</string>
     <string name="summonericon">summonerIcon</string>
+    <string name="player_summary">Player Summary</string>
+    <string name="textview2">TextView</string>
+    <string name="textview3">TextView</string>
+    <string name="textview4">TextView</string>
+    <string name="textview5">TextView</string>
+    <string name="textview6">TextView</string>
+    <string name="textview7">TextView</string>
+    <string name="top_3_characters">top 3 characters</string>
+    <string name="champions">ChampionOne</string>
+    <string name="championtwo">championtwo</string>
+    <string name="championone">championone</string>
+    <string name="win_loss">Win/Loss</string>
+    <string name="ranked_solo">Ranked Solo</string>
+    <string name="ranked_flex">Ranked Flex</string>
+    <string name="summoner">Summoner:</string>
+    <string name="championthree">championthree</string>
+    <string name="player_level">Player Level:</string>
+    <string name="win_los">win_loss:</string>
+    <string name="summoner_level">Summoner Level:</string>
 </resources>
