@@ -26,9 +26,7 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 
 
@@ -38,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
     private TextView summonerNameView;
     String id;
     String summonerName;
-    String APIKey = "?api_key=" + "RGAPI-2a1453c3-4535-4e3e-8043-c04130582a24";
+    String APIKey = "?api_key=" + "RGAPI-829b8491-5407-43d9-84bb-969c9601fdf1";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -78,6 +76,7 @@ public class MainActivity extends AppCompatActivity {
                             Log.d("tag", summonerData.toString());
                             TextView playerLevelView = findViewById(R.id.textView11);
                             id = summonerData.getString("id");
+
                             summonerRankedCall(id);
                             championMasterCall(id);
                             String levelTextSet = "Summoner Level: " + summonerData.getString("summonerLevel");
@@ -123,6 +122,7 @@ public class MainActivity extends AppCompatActivity {
                     }
                 });
         requestQueue.add(jsonObjectRequest);
+
     }
 
     public void summonerRankedCall(String id) {
